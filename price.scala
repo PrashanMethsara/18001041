@@ -3,11 +3,13 @@ object price extends App
 {
    price(60)
 
-  def price(m: Int) = {
+  def price(p: Int) = 
+       {
     val e : Float = 24.95*0.6
     var x :Float
-    if(m>50) {
-          x=3 + (m-50)*0.75
+    if(p>50)
+         {
+          x=3 + (p-50)*0.75
          } 
 
      else{
